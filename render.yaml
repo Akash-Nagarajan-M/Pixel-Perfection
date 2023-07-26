@@ -1,0 +1,8 @@
+version: 1
+services:
+  - name: flask-app
+    env: python
+    dockerfile: Dockerfile
+    envVars:
+      - key: PORT
+        value: 8080
